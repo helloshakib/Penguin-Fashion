@@ -1,15 +1,52 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+body{
+    font-family: 'Roboto', sans-serif;  
+}
 h1, h2 {
     font-family: 'Bebas Neue', cursive;
 }
+h1, h2, h3, h5{
+    color: #363958;
+}
 p {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
 }
+.slider-text h1{
+    font-size: 80px;
+    line-height: 80px;
+}
+.highlite-title{
+    color: #FABE4C;
+    display: block;
+}
 .penguin-card{
     border: 0;
+}
+.header-bg{
+    background-color: #FFFBF0;
+}
+.btn-style{
+    background-color: #8EA826;
+    color: #fff;
+}
+.penguin-indicators{
+    background-color: #8EA826 !important;
+}
+.penguin-slide {
+    padding: 60px 0px;
+}
+.penguin-nav {
+    padding: 10px 18px !important;
+}
+.product-title{
+    font-size: 48px;
+}
+.panda-card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.price{
+    color: #FABE4C;
+    font-size: 30px;
+    font-weight: bold;
 }
